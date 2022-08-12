@@ -55,22 +55,6 @@ function Header({setOpenMic}) {
           ></i>
         )}
 
-        {/* Esto sale cuando se está en escritorio */}
-        {/* <div className="list">
-          <ul className={`dropdown`}>
-            Transferencias y avances
-            <li className="dropdown--item">Entre mis productos Davivienda</li>
-            <li className="dropdown--item">A otras cuentas Davivienda</li>
-            <li className="dropdown--item">A Daviplata</li>
-            <li className="dropdown--item">A cuentas de otros bancos</li>
-            <li className="dropdown--item">Desde y hacia mis bolsillos</li>
-            <li className="dropdown--item">Giros internacionales</li>
-            <li className="dropdown--item">Avances</li>
-            <li className="dropdown--item">
-              Transferencia a DaviPlata por comando de voz
-            </li>
-          </ul>
-        </div> */}
 
         <div className="dropdown">
           <h2> Transferencias y avances </h2>
@@ -82,7 +66,7 @@ function Header({setOpenMic}) {
             <div className="dropdown--item">Desde y hacia mis bolsillos</div>
             <div className="dropdown--item">Giros internacionales</div>
             <div className="dropdown--item">Avances</div>
-            <div className="dropdown--item" onClick={() => setOpenMic(true) }>
+            <div className="dropdown--item" id="focus" onClick={() => setOpenMic(true) }>
               Transferencia a DaviPlata por comando de voz
             </div>
           </div>
@@ -139,7 +123,7 @@ function Header({setOpenMic}) {
                 <p>Avances</p>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-              <div className="dropdown--item2" onClick={() => setOpenMic(true)}>
+              <div className="dropdown--item2" id="focus" onClick={() => setOpenMic(true)}>
                 <p>Transferencia a DaviPlata por comando de voz</p>
                 <i class="fa-solid fa-arrow-right"></i>
               </div>

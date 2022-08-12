@@ -1,0 +1,234 @@
+.container-modal{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center
+}
+
+.first-content, .second-content, .third-content, .fourth-content, .fifth-content{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--modal-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 30px 40px 30px;
+    transition: width .6s;
+    transition: all .6s;
+
+}
+
+
+.content--header{
+    left: 0%;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    padding-top: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 50%;
+    background-color: blue;
+}
+
+.content--decoration{
+    width: 100px;
+    height: 4px;
+    background-color: #CACACA;
+    border-radius: 20px;
+}
+
+.content--name{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content--name p{
+    font-weight:bold;
+    color: #565656;
+}
+
+
+.content--text {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.content--text p {
+    color: #565656;
+   
+}
+
+.content--micro{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--header-color);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
+.fa-microphone{
+    color: var(--header-color);
+    font-size: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: color .6s, transform .8s;
+    margin-bottom: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.contact:nth-child(1), .contact:nth-child(2), .account:nth-child(2) {
+    border-bottom: 2px solid #F0F0F3;
+}
+
+
+
+
+.content--contacts , .content--accounts{
+    margin: 10px 0px 10px 0px;
+}
+
+.indicative-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content--accounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    height: 70px;
+}
+
+.right-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount-account{
+    margin-right: 10px;
+    text-align: right;
+}
+
+.info-account h2{
+    margin-bottom: 5px ;
+}
+
+.third-content-text, .fourth-content-text{
+    margin-top: 30px;
+}
+
+
+
+/* Cuarto modal */
+
+.card-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card-data--origin{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+
+.narrow-color{
+    color: var(--header-color);
+    font-size: 22px;
+    margin-left: -40px;
+}
+
+.card-data--destiny{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.card-transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--modal-color);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.card-transaction--value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid #b8b8b9;
+    padding-bottom: 5px;
+    width: 90%;
+}
+
+.card-transaction--cost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 5px;
+}
+
+.number{
+    font-size: 14px;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #b8b8b9; 
+    padding-bottom: 10px;  
+}
+
+.fifth-content-text{
+    margin-top: 20px;
+}

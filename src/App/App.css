@@ -15,8 +15,8 @@
         display: block;
     }
 
-    .first-content{
-        width: 35%;
+    .first-content, .second-content, .third-content, .fourth-content, .fifth-content{
+        width: 25%;
         transition: width .6s;   
     }
 
@@ -25,6 +25,12 @@
         justify-content: center;
 
     }
+
+    .account{
+        font-size: 16px;
+
+    }
+
 
 
 }

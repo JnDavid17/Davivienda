@@ -14,8 +14,6 @@ function Modal({
   accounts,
   account,
   setAccount,
-  comprobante,
-  setComprobante,
   date,
   setDate,
   hour,

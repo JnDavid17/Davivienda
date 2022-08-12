@@ -9,7 +9,6 @@ function App() {
   const [word, setWord] = React.useState("");
   const [contact, setContact] = React.useState([]);
   const [account, setAccount] = React.useState([]);
-  const [comprobante, setComprobante] = React.useState(304003);
   const [hour, setHour] = React.useState("")
   const [date, setDate] = React.useState("")
 
@@ -62,8 +61,6 @@ function App() {
           accounts = {accounts}
           account = {account}
           setAccount = {setAccount}
-          comprobante = {comprobante}
-          setComprobante = {setComprobante}
           date = {date}
           setDate = {setDate}
           hour = {hour}
